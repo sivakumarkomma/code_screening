@@ -1,0 +1,20 @@
+application {
+  config {
+    baseName code_screening,
+    applicationType monolith,
+    packageName com.hw.code.screening,
+    prodDatabaseType mysql,
+    clientFramework angular
+    buildTool maven
+  }
+  entities *
+}
+
+entity Content{
+ header String,
+ footer String,
+ paragraph String
+}
+
+dto * with mapstruct
+service * with serviceImpl

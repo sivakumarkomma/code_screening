@@ -1,0 +1,28 @@
+{
+  "name": "Content",
+  "fields": [
+    {
+      "fieldName": "header",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "footer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paragraph",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "content",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["code_screening"],
+  "changelogDate": "20211118131849"
+}
